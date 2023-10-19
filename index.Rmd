@@ -4,7 +4,6 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 # This is Jeff's awesome website
@@ -16,6 +15,8 @@ You can add text
 * with extra bullets
 
 You can *FORMAT* and **bold?**
+
+This is a [link](https://google.com/) to a good data science tool. Here's a link to [P8105](https://p8105.com). Here's a link to the [About](about.html) page. 
 
 You can also still use R!
 
@@ -33,3 +34,9 @@ plot_df |>
   geom_point()
 ```
 
+
+My cat is Carl, this is Carl: 
+![](images/carl.jpeg)
+
+This is Stan. He is dumb.
+![](images/stan.jpeg)
