@@ -13,4 +13,4 @@ navbar:
       href: http://github.com/courtneyjdiamond/
 output:
   html_document:
-    theme: cerulean
+    css: bootstrap.css
