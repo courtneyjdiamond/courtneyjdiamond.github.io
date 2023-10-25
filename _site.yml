@@ -7,6 +7,10 @@ navbar:
       href: about.html
     - text: "Projects"
       href: projects.html
+    - text: "Plotly"
+      href: plotly.html
+    - text: "Dashboard"
+      href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<courtneyjdiamond@gmail.com>
     - icon: fa-github fa-lg

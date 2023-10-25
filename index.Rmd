@@ -16,3 +16,9 @@ My cat is Carl, this is Carl:
 
 This is Stan. He is dumb.
 ![](images/stan.jpeg)
+
+
+
+# Other stuff on this page
+
+Here's some [plotly](plotly.html) stuff!

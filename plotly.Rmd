@@ -36,6 +36,8 @@ nyc_airbnb =
 nyc_airbnb
 ```
 
+
+## Scatterplot 
 Let's make a scatterplot! Great beceause we can zoom in on things like outliers. 
 
 ```{r}
@@ -46,7 +48,7 @@ nyc_airbnb |>
     type = "scatter", mode = "markers", alpha = 0.5)
 ```
 
-
+## Boxplot
 Let's make a boxplot. 
 
 ```{r}
@@ -55,6 +57,7 @@ nyc_airbnb |>
   plot_ly(y = ~price, color = ~neighbourhood, type = "box", colors = "viridis")
 ```
 
+## Barplot
 Let's make a barplot. 
 
 ```{r}
@@ -65,4 +68,21 @@ nyc_airbnb |>
     x = ~neighbourhood, y = ~n, color = ~neighbourhood,
     type = "bar", colors = "viridis")
 ```
+
+## ggplotly
+
+```{r}
+ggp_scatter = 
+  nyc_airbnb |> 
+  ggplot(aes(x = lat, y = long, color = price)) +
+  geom_point(alpha = 0.5)
+
+ggplotly(ggp_scatter)
+```
+
+Plotly is trying to use the base ggplot to do what it did previously, but the quality of the graphic is not as good. 
+
+A note on rendering the dashboard: the _site.yml dictates the structure and overrides the pretty layout of the dashboard if we were to just knit it as per usual. Instead, we can use this call to render it with the pretty layout: `rmarkdown::render("dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")`
+
+
 
