@@ -1,9 +1,44 @@
 ---
-title: "About"
+title: "Bio"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-## This is the About page!
+## About Me
+
+Hi there- I'm Courtney. I am a PhD student in the Department of Biomedical Informatics at Columbia University Irving Medical Center in New York, NY. Before I fell into the world of clinical informatics, I was a biology and political science student at MIT. I grew up in central Massachusetts (go Sox), and now live in New York with my two wonderful cats Carl and Stanley. When I'm not working or studying, I can be found watching Taskmaster UK, crocheting, running, or reading a creepy horror novel.
+
+
+## Education
+
+**September 2021 - Present**
+
+PhD Student
+
+Department of Biomedical Informatics, Columbia University Irving Medical Center, New York, NY
+
+**September 2013 - June 2018**
+
+
+Departments of Biology and Political Science, Massachusetts Institute of Technology, Cambridge, MA
+
+## Work Experience
+
+**April 2019 - July 2021**
+
+Clinical Research Coordinator, Massachusetts General Hospital, Boston, MA
+
+I worked with Drs. Jennifer Haas and Steven Atlas on the mFOCUS (multi-level Follow-up to Cancer Screening) project. I assisted with design, validation, and implementation of the IT-based intervention components of mFOCUS, including natural language processing (NLP) programs for abnormal cancer screening test result detection and guideline-based algorithms to determine if timely and adequate follow-up was completed. I used Microsoft SQL Server Management Studio (MSSMS) to maintain study database, identify and report errors to lead programmer, and troubleshoot errors associated with data pulls.
+I additionally conducted patient outreach per protocol to assist patients with scheduling follow-up.
+
+**September 2018 - March 2019**
+
+Policy Research Assistant, DIPHSA
+
+I studied systemic causes of healthcare-associated infections in public and private hospitals in the greater Mexico City area. I conducted qualitative interviews with doctors, nurses, and other key personnel to learn more about various challenges to care, hospital epidemiology, and reporting/sharing data.
+
+## Programming Languages
+
+Python, SQL, R

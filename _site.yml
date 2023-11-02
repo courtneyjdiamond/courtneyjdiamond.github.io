@@ -3,18 +3,16 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
+    - text: "Bio"
       href: about.html
-    - text: "Projects"
-      href: projects.html
-    - text: "Plotly"
-      href: plotly.html
     - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<courtneyjdiamond@gmail.com>
+    - icon: fa-brands fa-linkedin fa-lg
+      href: http://linkedin.com/courtneyjdiamond/
     - icon: fa-github fa-lg
       href: http://github.com/courtneyjdiamond/
 output:
   html_document:
-    css: bootstrap.css
+    theme: yeti

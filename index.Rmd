@@ -6,19 +6,10 @@ output:
     toc_float: true
 ---
 
-# This is Courtney's awesome website.
-
-![](images/octopus.mp4)
 
 
-My cat is Carl, this is Carl: 
-![](images/carl.jpeg)
-
-This is Stan. He is dumb.
-![](images/stan.jpeg)
+Hi! I'm Courtney, a PhD student in biomedical informatics at Columbia University Irving Medical Center. 
 
 
+![](images/headshot.jpeg)
 
-# Other stuff on this page
-
-Here's some [plotly](plotly.html) stuff!
