@@ -10,7 +10,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<courtneyjdiamond@gmail.com>
     - icon: fa-brands fa-linkedin fa-lg
-      href: http://linkedin.com/courtneyjdiamond/
+      href: http://linkedin.com/in/courtneyjdiamond/
     - icon: fa-github fa-lg
       href: http://github.com/courtneyjdiamond/
 output:
