@@ -51,7 +51,7 @@ ny_noaa_elmira |>
   plot_ly(x = ~month, y = ~monthly_max_avg, color = ~year, type = 'scatter', mode = 'markers', colors = "viridis", alpha = 0.5)
 ```
 
-### Average Min Temperature (F) by Month
+### Distribution of Minimum Temperatures (F) by Month
 
 ```{r}
 ny_noaa_elmira |> 
