@@ -20,6 +20,37 @@ ny_noaa_elmira = ny_noaa |>
   mutate(tmin = (as.numeric(tmin)/10)*(9/5) + 32) |> 
   mutate(tmax = (as.numeric(tmax)/10)*(9/5) + 32) |> 
   mutate(month = str_sub(as.character(date),start = 6, end = 7)) |> 
+  mutate(
+    month = case_match(
+      month,
+      "01" ~ "January",
+      "02" ~ "February",
+      "03" ~ "March",
+      "04" ~ "April",
+      "05" ~ "May",
+      "06" ~ "June",
+      "07" ~ "July",
+      "08" ~ "August",
+      "09" ~ "September",
+      "10" ~ "October",
+      "11" ~ "November",
+      "12" ~ "December"
+      )
+    ) |> 
+  mutate(month = fct_relevel(month, "January",
+                            "February",
+                            "March",
+                            "April",
+                            "May",
+                            "June",
+                            "July",
+                            "August",
+                            "September",
+                            "October",
+                            "November",
+                            "December"
+                            )
+         ) |> 
   mutate(day = str_sub(as.character(date), start = 9, end = 10)) |> 
   mutate(year = str_sub(as.character(date), start = 1, end = 4))
 
@@ -34,7 +65,7 @@ Column {data-width=650}
 
 ```{r}
 ny_noaa_elmira |> 
-  filter(month == '10' & day == '31') |> 
+  filter(month == 'October' & day == '31') |> 
   plot_ly(x = ~year, y = ~tmin, color = ~tmin, type = "bar", colors = 'viridis')
   
 ```
